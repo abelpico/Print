@@ -24,13 +24,13 @@ void setup()
   Serial.println();
   
   Serial.println(num);
-  Serial.println(num,DEC);
+  Serial.println(num,DEC); //escriu el número en sistema decimal
   
-  Serial.println(num,BIN);
+  Serial.println(num,BIN);//l'escriu en sist binari
   
-  Serial.println(num,HEX);
+  Serial.println(num,HEX);//l'escriu en sist hexadecimal
   
-  Serial.println(num,OCT);
+  Serial.println(num,OCT);//l'escriu en sist octal
   
 
 }
